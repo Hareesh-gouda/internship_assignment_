@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Learning Page</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Additional styles for progress tracking */
+        .progress-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Course Platform</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Course Content Section -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Video Player -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/your_video_id" allowfullscreen></iframe>
+            </div>
+
+            <!-- Course Structure -->
+            <div class="mt-4">
+                <h2>Course Section 1</h2>
+                <p>This is the first section of the course. Add your content here.</p>
+
+                <!-- Subsection within Section 1 -->
+                <div class="mt-3">
+                    <h3>Subsection 1.1</h3>
+                    <p>This is a subsection within Section 1. Add your content here.</p>
+                </div>
+
+                <!-- Add more subsections as needed -->
+
+            </div>
+
+            <!-- Language Selection -->
+            <div class="mt-4">
+                <h2>Language Selection</h2>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="language" id="english" checked>
+                    <label class="form-check-label" for="english">English</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="language" id="spanish">
+                    <label class="form-check-label" for="spanish">Spanish</label>
+                </div>
+                <!-- Add more language options as needed -->
+            </div>
+
+            <!-- Progress Tracking -->
+            <div class="progress-container mt-4">
+                <h2>Progress Tracking</h2>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            <!-- Additional functionalities can be added here -->
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
